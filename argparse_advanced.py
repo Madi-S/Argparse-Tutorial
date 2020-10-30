@@ -12,12 +12,12 @@ from selenium.common.exceptions import WebDriverException
 
 parser = argparse.ArgumentParser(description='Argparse tutorial')
 
-# When only parameter from given list is needed for the argument:
+# When the only parameter from the given list is needed for the argument:
 parser.add_argument(
     '-m', '--math', help='Show mathematical constants', choices=['e', 'pi'])
 
-# Choices takes list with values that can be specified
-# If user specifies the value that does not exists in the choices list, the program will throw an error
+# Choices takes a list with values that can be specified
+# If the user specifies the value that does not exist in the choices list, the program will throw an error
 
 # When argument can be modified (set default for non-given arguments):
 parser.add_argument('-e', '--exc_path', help='Specify executable path for the ChromeDriver',
