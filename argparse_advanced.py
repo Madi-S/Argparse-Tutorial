@@ -45,23 +45,23 @@ except WebDriverException:
 Example of usage:
 
 1.
-λ python argparse_tutorial.py -m e
+λ python argparse_advanced.py -m e
 2.718281828459045
 
 
 2.
-λ python argparse_tutorial.py --math pi
+λ python argparse_advanced.py --math pi
 3.141592653589793
 
 
 3.
-λ python argparse_tutorial.py -m pi e
+λ python argparse_advanced.py -m pi e
 usage: argparse_tutorial.py [-h] [-m {e,pi}] [-e EXC_PATH]
 argparse_tutorial.py: error: unrecognized arguments: e
 
 
 4.
-λ python argparse_tutorial.py -m abc
+λ python argparse_advanced.py -m abc
 usage: argparse_tutorial.py [-h] [-m {e,pi}] [-e EXC_PATH]
 argparse_tutorial.py: error: argument -m/--math: invalid choice: 'abc' (choose from 'e', 'pi')
 
