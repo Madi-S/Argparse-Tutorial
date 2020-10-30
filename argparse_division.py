@@ -1,5 +1,5 @@
 # Here we learn about:
-# 1) Positional (mandatory) arguments, which do no include --
+# 1) Positional (mandatory) arguments, which do no include '-'
 # 2) Some advanced parameters for creating an argument
 
 
