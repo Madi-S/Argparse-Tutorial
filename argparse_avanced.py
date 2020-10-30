@@ -39,3 +39,42 @@ try:
     driver.quit()
 except WebDriverException:
     print('Specify the correct executable path or not specify it at all')
+
+    
+'''
+Example of usage:
+
+1.
+λ python argparse_tutorial.py -m e
+2.718281828459045
+
+
+2.
+λ python argparse_tutorial.py --math pi
+3.141592653589793
+
+
+3.
+λ python argparse_tutorial.py -m pi e
+usage: argparse_tutorial.py [-h] [-m {e,pi}] [-e EXC_PATH]
+argparse_tutorial.py: error: unrecognized arguments: e
+
+
+4.
+λ python argparse_tutorial.py -m abc
+usage: argparse_tutorial.py [-h] [-m {e,pi}] [-e EXC_PATH]
+argparse_tutorial.py: error: argument -m/--math: invalid choice: 'abc' (choose from 'e', 'pi')
+
+
+5.
+λ python argparse_tutorial.py --math e -e C:\\Users\\khova\\Desktop\\Python\\chromedriver.exe
+2.718281828459045
+
+DevTools listening on ws://127.0.0.1:59316/devtools/browser/cfd980da-eec7-4a69-8017-dbbdfb0a9b62
+[11740:11536:1030/195559.199:ERROR:device_event_log_impl.cc(208)] [19:55:59.199] Bluetooth: bluetooth_adapter_winrt.cc:1076 Getting Default Adapter failed.
+
+
+6.
+λ python argparse_tutorial.py --exc_path C:\\Users\\khova\\Desktop\\NotPython\\chromedriver.exe
+Specify the correct executable path or not specify it at all
+'''
