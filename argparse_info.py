@@ -30,3 +30,41 @@ if args.version:  # if '-v' or '--version' was written args.version becomes True
 
 if args.directory:
     print(sys.executable)
+
+
+'''
+Example:
+
+C:\Users\khova\Desktop\Python\Code\GitHub\Argparse Tutorial (master -> origin)
+λ python argparse_tutorial.py --help
+usage: argparse_info.py [-h] [-v] [-d]
+
+Argparse tutorial
+
+optional arguments:
+  -h, --help       show this help message and exit
+  -v, --version    Show your current python version
+  -d, --directory  Show your current python directory
+
+
+λ python argparse_info.py -v
+3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)]
+
+
+C:\Users\khova\Desktop\Python\Code\GitHub\Argparse Tutorial (master -> origin)
+λ python argparse_tutorial.py --version
+3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)]
+
+
+C:\Users\khova\Desktop\Python\Code\GitHub\Argparse Tutorial (master -> origin)
+λ python argparse_info.py --directory
+C:\Users\khova\AppData\Local\Programs\Python\Python38-32\python.exe
+
+
+C:\Users\khova\Desktop\Python\Code\GitHub\Argparse Tutorial (master -> origin)
+λ python argparse_info.py --directory -v
+3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)]
+C:\Users\khova\AppData\Local\Programs\Python\Python38-32\python.exe
+
+
+'''
