@@ -1,6 +1,6 @@
 # Argparse-Tutorial
 
-## Tutorial for people, who want to get started with argarse module or to implement user-friendly command-line interfaces for python scripts..
+## Tutorial for people, who want to get started with argparse module or to implement user-friendly command-line interfaces for python scripts.
 
 ### argparse_division.py 
 - Covers the usage of positional arguments and some useful technics to create an argument
