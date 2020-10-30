@@ -33,7 +33,7 @@ if args.directory:
 
 
 '''
-Example:
+Example of usage:
 
 C:\Users\khova\Desktop\Python\Code\GitHub\Argparse Tutorial (master -> origin)
 λ python argparse_tutorial.py --help
